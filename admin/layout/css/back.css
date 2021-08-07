@@ -1,0 +1,384 @@
+ /***************start global***************/
+
+body{
+	background-color: #eee;
+	font-size: 16px
+}
+
+.asterik{
+	position: absolute;
+	top: 8px;
+	right: 25px;
+	font-size: 30px;
+	color: red;
+
+}
+
+
+/****************end global****************/
+
+/***************start  login***************/
+
+.login{
+	width: 400px;
+	margin: 100px auto
+}
+
+.login h3{
+    color: #777;
+    margin-bottom: 20px
+}
+
+.login input{
+	margin-bottom: 10px 
+}
+
+.login .form-control{
+    background-color: #eaeaea
+}
+
+/****************end  login****************/
+
+/***************start bootstrap edits***************/
+
+.nav-brand{
+	font-size: 1em
+}
+
+.navbar-inverse .navbar-nav > .opan> a,
+.navbar-inverse .navbar-nav > .opan> a:focus,
+.navbar-inverse .navbar-nav > .opan> a:hover,
+.dropdown{
+	background-color: #3498db
+}
+
+.dropdown{
+	min-width: 180px;
+	font-size: 1em
+}
+
+.dropdown > li > a{
+	color: #fff
+}
+
+.form-control{
+	position: relative;
+}
+
+/****************end bootstrap edits****************/
+
+/***************start members page***************/
+
+h1{
+	font-size: 80px;
+	margin: 30px 0;
+	color: #333
+}
+
+.show-pass{
+	position: absolute;
+	top: 14px;
+	right: 45px
+}
+
+.main-table{
+	box-shadow: 0px 3px 10px #ccc;
+}
+
+.main-table td{
+	background-color: #fff
+}
+
+.main-table tr:first-of-type td{
+	background-color: #333;
+	color: #fff
+}
+
+.main-table .activate{
+	margin-left: 5px
+}
+
+.main-table img{
+	width: 50px;
+	height: 50px
+}
+
+/****************end members page****************/
+
+/***************start dashboard page***************/
+
+.stat-holder .stat{
+	padding: 20px;
+	font-size: 15px;
+	color: #fff;
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+}
+
+.stat-holder .stat i{
+	position: absolute;
+	top: 30px;
+	left: 20px;
+	font-size: 70px
+}
+
+.stat-holder .stat .info{
+	float: right
+}
+
+.stat-holder .stat a{
+	color: #fff
+}
+
+.stat-holder .stat a:hover{
+	text-decoration: none
+}
+
+.stat-holder .stat span{
+	display: block;
+	font-size: 50px
+}
+
+.stat-holder .st-members{
+	background-color: #3498db
+}
+
+.stat-holder .st-pending{
+	background-color: #c0392b
+}
+
+.stat-holder .st-items{
+	background-color: #d35400
+}
+
+.stat-holder .st-comments{
+	background-color: #8e44ad
+}
+
+
+
+.latest{
+	margin-top: 30px
+}
+
+.latest .toggle-info{
+	color: #999;
+	cursor: pointer;
+}
+
+.latest .toggle-info:hover{
+	color: #444
+}
+
+.latest .latest-users{
+	margin-bottom: 0
+}
+
+.latest .latest-users li{
+	padding: 10px;
+	overflow: hidden;
+}
+
+.latest .latest-users li:nth-child(odd){
+	background-color: #eee
+}
+
+.latest .latest-users .btn-success,
+.latest .latest-users .btn-info{
+	padding: 2px 8px
+}
+
+.latest .latest-users .btn-info{
+	margin-right: 5px
+}
+
+.latest .comment-box{
+	margin: 5px 0 10px;
+	overflow: hidden;
+}
+
+.latest .comment-box .member-n, .latest .comment-box .member-c{
+	float: left;
+}
+
+.latest .comment-box .member-n{
+	width: 80px;
+	margin-right: 20px;
+	text-align: center;
+	position: relative;
+	color: #555;
+	top: 5px
+}
+
+.latest .comment-box .member-c{
+	width: calc(100% - 100px);
+	position: relative;
+	padding: 10px;
+	background-color: #efefef
+}
+
+.latest .comment-box .member-c::before{
+	content: "";
+	display: block;
+	position: absolute;
+	width: 0;
+	height: 0;
+	top: 5px;
+	left: -20px;
+	border-color: transparent #efefef transparent transparent;
+	border-style: solid;
+	border-width: 10px 
+
+}
+
+
+/****************end dashboard page****************/
+
+/***************start categories page***************/
+
+.categories .panel-heading{
+	color: #959595;
+	font-weight: bold
+}
+
+.categories .panel-heading i{
+	position: relative;
+	top: 1px
+}
+
+.categories .panel-body{
+	padding: 0
+}
+
+.categories .option a{
+	color: #888;
+	text-decoration: none;
+}
+
+.categories .option span{
+	color: #888;
+	cursor: pointer
+}
+
+.categories .option a.active,
+.categories .option span.active{
+	color: red
+}
+
+.categories hr{
+	margin-top: 0;
+	margin-bottom: 0
+}
+
+.categories .cat{
+	padding: 15px;
+	position: relative;
+	overflow: hidden
+}
+
+.categories .cat:hover{
+	background-color: #eee
+}
+
+.categories .cat .hidden-btn{
+	transition: all .5s ease-in-out;
+	position: absolute;
+	top: 15px;
+	right: -160px
+}
+
+.categories .cat:hover .hidden-btn{
+	right: 10px
+}
+
+.categories .cat .hidden-btn a{
+	margin-right: 5px 
+}
+
+.categories .cat h3{
+	margin: 0 ;
+	cursor: pointer;
+	color: #6a6a6a;
+	font-weight: bold
+}
+
+.categories .cat p{
+	margin: 10px 0;
+	color: #707070
+}
+
+.categories .cat:last-of-type ~ hr{
+	display: none
+}
+
+.categories .cat span{
+	margin-right: 5px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	color: #fff
+}
+
+.categories .cat .visibility, .categories .cat .adv{
+	background-color: #d35400
+}
+
+.categories .cat .commenting{
+	background-color: #2c3e50
+}
+
+.categories .cat .adv{
+	background-color: #c0392b
+}
+
+.categories .sub-head{
+	margin: 15px 0 10px;
+	font-weight: bold;
+	font-size: 16px;
+	color: #22ab79;
+
+}
+
+.categories .sub-cats{
+	margin: 0
+}
+
+.categories .sub-cats li{
+	margin-left: 15px
+}
+
+.categories .sub-cats li::before{
+	content: '-'
+}
+
+.categories .show-del{
+	color: red;
+	display: none;
+}
+
+.categories .add-cat{
+	margin-bottom: 30px
+}
+
+
+/****************end categories page****************/
+
+/***************start items page***************/
+
+/****************end items page****************/
+
+option{
+	display: block!important
+}
+
+/***************start global***************/
+
+/****************end global****************/
+
+/***************start global***************/
+
+/****************end global****************/
+
+/***************start global***************/
+
+/****************end global****************/
